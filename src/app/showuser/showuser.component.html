@@ -1,0 +1,26 @@
+<div class="container">
+
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Sr No</th>
+                <th>FirstName</th>
+                <th>LastName</th>
+                <th>Email</th>
+                <th>Edit</th>
+                <th>Remove</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor=" let user of users; let i= index ">
+                <td> {{i + 1}}</td>
+                <td>{{user.first_name}}</td>
+                <td>{{user.last_name}}</td>
+                <td>{{user.email}}</td>
+                <td><button class="btn btn-primary" (click)="update(user.id)">Edit</button></td>
+                <td><button class="btn btn-danger" (click)="delete(user.id)">remove</button></td>
+            </tr>
+        </tbody>
+    </table>
+
+</div>

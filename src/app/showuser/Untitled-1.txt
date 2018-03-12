@@ -1,0 +1,5 @@
+//for create dummy test custorm api you ccan use
+// first create json file in your project
+//then install npm install -g json-server
+// then create json data and run this command
+// json-server --watch file name(like db.json)

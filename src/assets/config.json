@@ -1,0 +1,23 @@
+{
+    "pepole": [{
+            "name": "sapna pastapure",
+            "age": 21,
+            "email": "sapnapastapure@gmail.com"
+        },
+        {
+            "name": "seema pastapure",
+            "age": 22,
+            "email": "seemapastapure@gmail.com"
+        },
+        {
+            "name": "balaji pastapure",
+            "age": 23,
+            "email": "balaji.pastapure@gmail.com"
+        },
+        {
+            "name": "vinayak pastapure",
+            "age": 21,
+            "email": "vinayakpastapure@gmail.com"
+        }
+    ]
+}
